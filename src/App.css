@@ -43,7 +43,7 @@ body {
 }
 
 .list {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   width: 30vw;
   height: 8vh;
   display: flex;
@@ -63,10 +63,11 @@ body {
 }
 
 .buttons {
-  background-color: green;
+  /* background-color: green; */
   color: rgb(255, 255, 255);
   height: 8vh;
-  width: 15vw;
+  /* width: 5vw; */
+  min-width: 6vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,8 +87,4 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(35, 35, 35);
-}
-
-@media (max-width: 600px) {
-
 }
